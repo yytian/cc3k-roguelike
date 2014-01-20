@@ -1,0 +1,10 @@
+#ifndef ENUMS_H
+#define ENUMS_H
+
+enum Races { HUMAN, ELF, DWARF, ORC, VAMPIRE, WEREWOLF, TROLL, GOBLIN, MERCHANT, DRAGON, PHOENIX };
+enum Statistics { HP, ATK, DEF };
+enum Direction { NORTH, SOUTH, EAST, WEST, NORTHWEST, NORTHEAST, SOUTHWEST, SOUTHEAST, STOP };
+enum PotionType {RH, BA, BD, PH, WA, WD};
+enum Faction {FRIENDLY, HOSTILE, MINDLESS};
+
+#endif
